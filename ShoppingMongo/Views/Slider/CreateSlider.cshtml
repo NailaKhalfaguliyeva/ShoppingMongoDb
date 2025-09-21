@@ -1,0 +1,43 @@
+﻿@using ShoppingMongo.DTOS
+@model CreateSliderDto
+@{
+    ViewData["Title"] = "CreateSlider";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h4 class="page-title">Slider Operations</h4>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Add New Slider</div>
+            </div>
+            
+            <form asp-action="CreateSlider" method="post">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label asp-for="SliderTitle"></label>
+                        <input type="text" class="form-control" asp-for="SliderTitle" placeholder="Enter a title">
+                        <span asp-validation-for="SliderTitle" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="SliderSubtitle"></label>
+                        <input type="text" class="form-control" asp-for="SliderSubtitle" placeholder="Enter a subtitle">
+                        <span asp-validation-for="SliderSubtitle" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="SliderImageUrl"></label>
+                        <input type="text" class="form-control" asp-for="SliderImageUrl" placeholder="Enter a ImageURL">
+                        <span asp-validation-for="SliderImageUrl" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="card-action">
+                    <button type="submit" class="btn btn-success">Add</button>
+                    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
