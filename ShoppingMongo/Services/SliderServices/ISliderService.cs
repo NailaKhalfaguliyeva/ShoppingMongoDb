@@ -1,6 +1,6 @@
-﻿using ShoppingMongo.DTOS;
+﻿using ShoppingMongo.DTOS.SliderDtos;
 
-namespace ShoppingMongo.Services
+namespace ShoppingMongo.Services.SliderServices
 {
     public interface ISliderService
     {

@@ -1,7 +1,10 @@
-using Microsoft.Extensions.Options;
-using ShoppingMongo.Services;
+﻿using Microsoft.Extensions.Options;
+using ShoppingMongo.Services.CategoryServices;
+using ShoppingMongo.Services.ProductServices;
+using ShoppingMongo.Services.SliderServices;
 using ShoppingMongo.Settings;
 using System.Reflection;
+using MongoDB.Driver;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,17 +12,32 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<ISliderService, SliderService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
-builder.Services.Configure<DatabaseSettings>(builder.Configuration.GetSection("DatabaseSettingsKey"));
+builder.Services.Configure<DatabaseSettings>(
+    builder.Configuration.GetSection("DatabaseSettingsKey"));
 
-builder.Services.AddScoped<IDatabaseSettings>(sp =>
+builder.Services.AddSingleton<IDatabaseSettings>(sp =>
+    sp.GetRequiredService<IOptions<DatabaseSettings>>().Value);
+
+
+
+builder.Services.AddSingleton<IMongoClient>(sp =>
 {
-    return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
+    var settings = sp.GetRequiredService<IDatabaseSettings>();
+    return new MongoClient(settings.ConnectionString);
 });
 
-
+builder.Services.AddScoped<IMongoDatabase>(sp =>
+{
+    var settings = sp.GetRequiredService<IDatabaseSettings>();
+    var client = sp.GetRequiredService<IMongoClient>();
+    return client.GetDatabase(settings.DatabaseName);
+});
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
 var app = builder.Build();
 

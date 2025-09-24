@@ -1,4 +1,4 @@
-﻿namespace ShoppingMongo.DTOS
+﻿namespace ShoppingMongo.DTOS.SliderDtos
 {
     public class UpdateSliderDto
     {

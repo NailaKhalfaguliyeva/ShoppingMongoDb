@@ -1,8 +1,7 @@
-﻿namespace ShoppingMongo.DTOS
+﻿namespace ShoppingMongo.DTOS.SliderDtos
 {
-    public class ResultSliderDto
+    public class CreateSliderDto
     {
-        public string SliderId { get; set; }
         public string SliderTitle { get; set; }
         public string SliderSubtitle { get; set; }
         public string SliderImageUrl { get; set; }

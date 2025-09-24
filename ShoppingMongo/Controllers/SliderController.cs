@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ShoppingMongo.DTOS;
-using ShoppingMongo.Services;
+using ShoppingMongo.DTOS.SliderDtos;
+using ShoppingMongo.Services.SliderServices;
 
 namespace ShoppingMongo.Controllers
 {

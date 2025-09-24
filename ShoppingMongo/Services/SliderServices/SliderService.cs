@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
 using MongoDB.Driver;
-using ShoppingMongo.DTOS;
+using ShoppingMongo.DTOS.SliderDtos;
 using ShoppingMongo.Entities;
 using ShoppingMongo.Settings;
 
-namespace ShoppingMongo.Services
+namespace ShoppingMongo.Services.SliderServices
 {
     public class SliderService : ISliderService
     {
