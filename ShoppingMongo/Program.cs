@@ -5,6 +5,7 @@ using ShoppingMongo.Services.SliderServices;
 using ShoppingMongo.Settings;
 using System.Reflection;
 using MongoDB.Driver;
+using ShoppingMongo.Services.ProductImageServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ISliderService, SliderService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProductImageService, ProductImageService>();
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
