@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MongoDB.Driver;
 using ShoppingMongo.Entities;
+using ShoppingMongo.Settings;
 
 namespace ShoppingMongo.Services.ProductServices
 {
@@ -9,14 +10,19 @@ namespace ShoppingMongo.Services.ProductServices
         
         private readonly IMongoCollection<Product> _productCollection;
 
-        public ProductService(IMongoDatabase database)
+        public ProductService(IDatabaseSettings databaseSettings, IMongoDatabase database)
         {
-            _productCollection = database.GetCollection<Product>("Products");
+            _productCollection = database.GetCollection<Product>(databaseSettings.ProductCollectionName);
+        }
+
+        public async Task<List<Product>> GetAllProductsAsync()
+        {
+            return await _productCollection.Find(x => true).ToListAsync();
         }
 
         public async Task<List<Product>> GetProductsByCategoryAsync(string categoryId)
         {
-            return await _productCollection.Find(p => p.CategoryId == categoryId).ToListAsync();
+            return await _productCollection.Find(x => x.CategoryId == categoryId).ToListAsync();
         }
     }
 }

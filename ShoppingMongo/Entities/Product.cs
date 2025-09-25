@@ -11,7 +11,9 @@ namespace ShoppingMongo.Entities
 
         public string Name { get; set; }
 
-        public double Price { get; set; }
+        public string Description { get; set; }
+
+        public decimal Price { get; set; }
 
         [BsonRepresentation(BsonType.ObjectId)]
         public string CategoryId { get; set; }
