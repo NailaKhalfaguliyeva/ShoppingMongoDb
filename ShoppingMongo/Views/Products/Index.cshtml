@@ -1,0 +1,42 @@
+﻿@model List<ShoppingMongo.DTOS.ProductDtos.ResultProductDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Product List</h2>
+<a href="/Products/CreateProduct" class="btn btn-primary mb-2">Add New Product</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Image</th>
+            <th>Transactions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td>@item.Price ₺</td>
+                <td>@item.CategoryId</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.ImageUrl))
+                    {
+                        <img src="@item.ImageUrl" width="60" height="60" />
+                    }
+                </td>
+                <td>
+                    <a href="/Products/UpdateProduct/@item.Id" class="btn btn-warning btn-sm">Update</a>
+                    <a href="/Products/DeleteProduct/@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

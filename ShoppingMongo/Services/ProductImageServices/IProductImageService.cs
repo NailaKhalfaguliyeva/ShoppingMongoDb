@@ -5,7 +5,7 @@ namespace ShoppingMongo.Services.ProductImageServices
     public interface IProductImageService
     {
         
-      
+        
         Task<string?> GetProductImageByIdAsync();
     }
 }

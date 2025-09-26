@@ -6,12 +6,12 @@ using ShoppingMongo.Services.ProductImageServices;
 
 namespace ShoppingMongo.Controllers
 {
-    public class ProductImagesController : Controller
+    public class ProductsImagesController : Controller
     {
         private readonly IProductImageService _imageService;
         private readonly IMapper _mapper;
 
-        public ProductImagesController(IProductImageService imageService, IMapper mapper)
+        public ProductsImagesController(IProductImageService imageService, IMapper mapper)
         {
             _imageService = imageService;
             _mapper = mapper;

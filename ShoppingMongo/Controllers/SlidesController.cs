@@ -4,11 +4,11 @@ using ShoppingMongo.Services.SliderServices;
 
 namespace ShoppingMongo.Controllers
 {
-    public class SliderController : Controller
+    public class SlidesController : Controller
     {
        public readonly ISliderService _sliderService;
 
-        public SliderController(ISliderService sliderService)
+        public SlidesController(ISliderService sliderService)
         {
             _sliderService = sliderService;
         }
