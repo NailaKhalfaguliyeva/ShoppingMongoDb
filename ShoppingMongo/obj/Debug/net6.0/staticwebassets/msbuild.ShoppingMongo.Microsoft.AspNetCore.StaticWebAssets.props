@@ -1830,8 +1830,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>27yx57li3c</Fingerprint>
-      <Integrity>Xpxyd+wg4WtiEh57IzWWk/KS66sLLbp7dyPdCBZzYqU=</Integrity>
+      <Fingerprint>le3cli178m</Fingerprint>
+      <Integrity>w9YaSELGk/mOySsZRCeNC7z8QuBCWwFMF968pPWSSUQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cozastore-master\home-02.html'))</OriginalItemSpec>

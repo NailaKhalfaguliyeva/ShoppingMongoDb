@@ -6,6 +6,8 @@ using ShoppingMongo.Settings;
 using System.Reflection;
 using MongoDB.Driver;
 using ShoppingMongo.Services.ProductImageServices;
+using ShoppingMongo.Entities;
+using ShoppingMongo.Services.NewsletterServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +18,8 @@ builder.Services.AddScoped<ISliderService, SliderService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductImageService, ProductImageService>();
+builder.Services.AddScoped<INewsletterService, NewsletterService>();
+
 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
@@ -39,7 +43,7 @@ builder.Services.AddScoped<IMongoDatabase>(sp =>
     var client = sp.GetRequiredService<IMongoClient>();
     return client.GetDatabase(settings.DatabaseName);
 });
-builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
 
 var app = builder.Build();
 

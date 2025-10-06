@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OCa3VqKQHI+SZo+7VMefT+ZtEccp84FRerd6GyQ5KGE=",
+  "Hash": "eYEhhP8EiCfqnM/2u3lNdRIJBchEh3/FvBl5W20rsZo=",
   "Source": "ShoppingMongo",
   "BasePath": "_content/ShoppingMongo",
   "Mode": "Default",
@@ -2194,8 +2194,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "27yx57li3c",
-      "Integrity": "Xpxyd+wg4WtiEh57IzWWk/KS66sLLbp7dyPdCBZzYqU=",
+      "Fingerprint": "le3cli178m",
+      "Integrity": "w9YaSELGk/mOySsZRCeNC7z8QuBCWwFMF968pPWSSUQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\cozastore-master\\home-02.html"
@@ -8920,7 +8920,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 14:44:54 GMT"
+          "Value": "Mon, 06 Oct 2025 20:57:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8965,7 +8965,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 14:44:54 GMT"
+          "Value": "Mon, 06 Oct 2025 20:57:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17016,51 +17016,6 @@
       ]
     },
     {
-      "Route": "cozastore-master/home-02.27yx57li3c.html",
-      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\ShoppingMongo\\ShoppingMongo\\wwwroot\\cozastore-master\\home-02.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "76979"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Xpxyd+wg4WtiEh57IzWWk/KS66sLLbp7dyPdCBZzYqU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 14:44:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "27yx57li3c"
-        },
-        {
-          "Name": "label",
-          "Value": "cozastore-master/home-02.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Xpxyd+wg4WtiEh57IzWWk/KS66sLLbp7dyPdCBZzYqU="
-        }
-      ]
-    },
-    {
       "Route": "cozastore-master/home-02.html",
       "AssetFile": "C:\\Users\\ASUS\\source\\repos\\ShoppingMongo\\ShoppingMongo\\wwwroot\\cozastore-master\\home-02.html",
       "Selectors": [],
@@ -17079,11 +17034,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Xpxyd+wg4WtiEh57IzWWk/KS66sLLbp7dyPdCBZzYqU=\""
+          "Value": "\"w9YaSELGk/mOySsZRCeNC7z8QuBCWwFMF968pPWSSUQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 14:44:54 GMT"
+          "Value": "Mon, 06 Oct 2025 20:57:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17093,7 +17048,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Xpxyd+wg4WtiEh57IzWWk/KS66sLLbp7dyPdCBZzYqU="
+          "Value": "sha256-w9YaSELGk/mOySsZRCeNC7z8QuBCWwFMF968pPWSSUQ="
+        }
+      ]
+    },
+    {
+      "Route": "cozastore-master/home-02.le3cli178m.html",
+      "AssetFile": "C:\\Users\\ASUS\\source\\repos\\ShoppingMongo\\ShoppingMongo\\wwwroot\\cozastore-master\\home-02.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76979"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w9YaSELGk/mOySsZRCeNC7z8QuBCWwFMF968pPWSSUQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Oct 2025 20:57:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "le3cli178m"
+        },
+        {
+          "Name": "label",
+          "Value": "cozastore-master/home-02.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w9YaSELGk/mOySsZRCeNC7z8QuBCWwFMF968pPWSSUQ="
         }
       ]
     },

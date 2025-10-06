@@ -1,8 +1,49 @@
-﻿@model ShoppingMongo.DTOS.ProductDtos.ResultProductDto
+﻿@model List<ShoppingMongo.DTOS.ProductImageDtos.ResultProductImageDto>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
 }
 
-<h1>Index</h1>
-
+<h4 class="page-title">ProductImage</h4>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">ProductImage List</div>
+            </div>
+            <div class="card-body">
+                <div class="card-sub">
+                    You can perform category transactions below.
+                </div>
+                <table class="table mt-3">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">ProductImageId</th>
+                            <th scope="col">ProductId</th>
+                            <th scope="col">ProductName</th>
+                            <th scope="col">ImageUrl</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            count++;
+                            <tr>
+                                <th>@count</th>
+                                <td>@item.ProductImageId</td>
+                                <td>@item.ProductId</td>
+                                <td>@item.ProductName</td>
+                                <td>@item.ImageUrl</td>
+                                <td><a href="/ProductsImages/DeleteProductImage/@item.ProductImageId" class="btn btn-danger">Delete</a></td>
+                                <td><a href="/ProductsImages/UpdateProductImage/@item.ProductImageId" class="btn btn-warning">Update</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <a href="/ProductsImages/CreateProductImage" class="btn btn-info">Add New ProductImage</a>
+            </div>
+        </div>
+    </div>
+</div>

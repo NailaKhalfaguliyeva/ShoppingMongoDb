@@ -227,3 +227,13 @@ C:\Users\ASUS\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net6.0\runtimes
 C:\Users\ASUS\source\repos\ShoppingMongo\ShoppingMongo\obj\Debug\net6.0\ShoppingMongo.sourcelink.json
 C:\Users\ASUS\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net6.0\Microsoft.Practices.EnterpriseLibrary.Common.dll
 C:\Users\ASUS\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net6.0\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\ASUS\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\ASUS\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net6.0\MailKit.dll
+C:\Users\ASUS\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\ASUS\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\ASUS\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ASUS\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\ASUS\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ASUS\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net6.0\MimeKit.dll
+C:\Users\ASUS\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\ASUS\source\repos\ShoppingMongo\ShoppingMongo\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll

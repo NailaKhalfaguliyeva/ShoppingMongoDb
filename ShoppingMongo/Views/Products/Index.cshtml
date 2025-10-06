@@ -2,41 +2,56 @@
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
 }
 
-<h2>Product List</h2>
-<a href="/Products/CreateProduct" class="btn btn-primary mb-2">Add New Product</a>
-
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Description</th>
-            <th>Price</th>
-            <th>Category</th>
-            <th>Image</th>
-            <th>Transactions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.Name</td>
-                <td>@item.Description</td>
-                <td>@item.Price ₺</td>
-                <td>@item.CategoryId</td>
-                <td>
-                    @if (!string.IsNullOrEmpty(item.ImageUrl))
-                    {
-                        <img src="@item.ImageUrl" width="60" height="60" />
-                    }
-                </td>
-                <td>
-                    <a href="/Products/UpdateProduct/@item.Id" class="btn btn-warning btn-sm">Update</a>
-                    <a href="/Products/DeleteProduct/@item.Id" class="btn btn-danger btn-sm">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+<h4 class="page-title">Product List</h4>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Product List</div>
+            </div>
+            <div class="card-body">
+                <div class="card-sub">
+                    You can perform product transactions below.
+                </div>
+                <table class="table mt-3">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Product Name</th>
+                            <th scope="col">Product Price</th>
+                            <th scope="col">Product Description</th>                            
+                            <th scope="col">Category Name</th>
+                            <th scope="col">Gender</th>
+                            <th scope="col">Stock Count</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Delete</th>
+                            <th scope="col">Update</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            count++;
+                            <tr>
+                                <th>@count</th>                                
+                                <td>@item.ProductName</td>
+                                <td>@item.ProductPrice ₺</td>
+                                <td>@item.ProductDescription</td>
+                                <td>@item.CategoryName</td>
+                                <td>@item.Gender</td>
+                                <td>@item.StockCount</td>
+                                <td>@item.Status</td>
+                                <td><a href="/Products/DeleteProduct/@item.ProductId" class="btn btn-danger">Delete</a></td>
+                                <td><a href="/Products/UpdateProduct/@item.ProductId" class="btn btn-warning">Update</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <a href="/Products/CreateProduct" class="btn btn-info">Add New Product</a>
+            </div>
+        </div>
+    </div>
+</div>

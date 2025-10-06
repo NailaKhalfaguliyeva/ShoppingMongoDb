@@ -40,13 +40,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cozastore-master\blog.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2x8h3b4bou"},{"Name":"integrity","Value":"sha256-ZjZXy\u002BUbZ6w2B07hu/5IOliyrX1oNYO/jxFKPEnTHBI="},{"Name":"label","Value":"_content/ShoppingMongo/cozastore-master/blog.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"26862"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ZjZXy\u002BUbZ6w2B07hu/5IOliyrX1oNYO/jxFKPEnTHBI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Jul 2025 14:44:54 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"26862"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ZjZXy\u002BUbZ6w2B07hu/5IOliyrX1oNYO/jxFKPEnTHBI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 06 Oct 2025 20:57:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ShoppingMongo/cozastore-master/blog.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cozastore-master\blog.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZjZXy\u002BUbZ6w2B07hu/5IOliyrX1oNYO/jxFKPEnTHBI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"26862"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ZjZXy\u002BUbZ6w2B07hu/5IOliyrX1oNYO/jxFKPEnTHBI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Jul 2025 14:44:54 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"26862"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ZjZXy\u002BUbZ6w2B07hu/5IOliyrX1oNYO/jxFKPEnTHBI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 06 Oct 2025 20:57:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ShoppingMongo/cozastore-master/contact.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cozastore-master\contact.html'))</AssetFile>
@@ -1212,17 +1212,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Si6LynsCew\u002BMwCGLgOyYI8o7mNSgbxdlEzewH7hfjt4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"172308"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022Si6LynsCew\u002BMwCGLgOyYI8o7mNSgbxdlEzewH7hfjt4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Jul 2025 14:44:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ShoppingMongo/cozastore-master/home-02.27yx57li3c.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cozastore-master\home-02.html'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"27yx57li3c"},{"Name":"integrity","Value":"sha256-Xpxyd\u002Bwg4WtiEh57IzWWk/KS66sLLbp7dyPdCBZzYqU="},{"Name":"label","Value":"_content/ShoppingMongo/cozastore-master/home-02.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"76979"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022Xpxyd\u002Bwg4WtiEh57IzWWk/KS66sLLbp7dyPdCBZzYqU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Jul 2025 14:44:54 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ShoppingMongo/cozastore-master/home-02.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cozastore-master\home-02.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Xpxyd\u002Bwg4WtiEh57IzWWk/KS66sLLbp7dyPdCBZzYqU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"76979"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022Xpxyd\u002Bwg4WtiEh57IzWWk/KS66sLLbp7dyPdCBZzYqU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Jul 2025 14:44:54 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-w9YaSELGk/mOySsZRCeNC7z8QuBCWwFMF968pPWSSUQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"76979"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022w9YaSELGk/mOySsZRCeNC7z8QuBCWwFMF968pPWSSUQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 06 Oct 2025 20:57:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ShoppingMongo/cozastore-master/home-02.le3cli178m.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cozastore-master\home-02.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"le3cli178m"},{"Name":"integrity","Value":"sha256-w9YaSELGk/mOySsZRCeNC7z8QuBCWwFMF968pPWSSUQ="},{"Name":"label","Value":"_content/ShoppingMongo/cozastore-master/home-02.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"76979"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022w9YaSELGk/mOySsZRCeNC7z8QuBCWwFMF968pPWSSUQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 06 Oct 2025 20:57:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ShoppingMongo/cozastore-master/home-03.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cozastore-master\home-03.html'))</AssetFile>

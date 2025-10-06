@@ -11,11 +11,11 @@ namespace ShoppingMongo.Services.SliderServices
         private readonly IMapper _mapper;
         private readonly IMongoCollection<Slider> _sliderCollection;
 
-        public SliderService(IMapper mapper, IDatabaseSettings _databaseSettings)
+        public SliderService(IMapper mapper, IDatabaseSettings _settings)
         {
-            var client = new MongoClient(_databaseSettings.ConnectionString);
-            var database = client.GetDatabase(_databaseSettings.DatabaseName);
-            _sliderCollection = database.GetCollection<Slider>(_databaseSettings.SliderCollectionName);
+            var client = new MongoClient(_settings.ConnectionString);
+            var database = client.GetDatabase(_settings.DatabaseName);
+            _sliderCollection = database.GetCollection<Slider>(_settings.SliderCollectionName);
             _mapper = mapper;
         }
 

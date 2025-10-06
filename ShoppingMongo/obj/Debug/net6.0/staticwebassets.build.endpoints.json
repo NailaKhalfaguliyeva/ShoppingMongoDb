@@ -6671,7 +6671,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 14:44:54 GMT"
+          "Value": "Mon, 06 Oct 2025 20:57:02 GMT"
         }
       ],
       "EndpointProperties": [
@@ -6716,7 +6716,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 14:44:54 GMT"
+          "Value": "Mon, 06 Oct 2025 20:57:02 GMT"
         }
       ],
       "EndpointProperties": [
@@ -14681,51 +14681,6 @@
       ]
     },
     {
-      "Route": "cozastore-master/home-02.27yx57li3c.html",
-      "AssetFile": "cozastore-master/home-02.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "76979"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Xpxyd+wg4WtiEh57IzWWk/KS66sLLbp7dyPdCBZzYqU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 14:44:54 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "27yx57li3c"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Xpxyd+wg4WtiEh57IzWWk/KS66sLLbp7dyPdCBZzYqU="
-        },
-        {
-          "Name": "label",
-          "Value": "cozastore-master/home-02.html"
-        }
-      ]
-    },
-    {
       "Route": "cozastore-master/home-02.html",
       "AssetFile": "cozastore-master/home-02.html",
       "Selectors": [],
@@ -14748,17 +14703,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Xpxyd+wg4WtiEh57IzWWk/KS66sLLbp7dyPdCBZzYqU=\""
+          "Value": "\"w9YaSELGk/mOySsZRCeNC7z8QuBCWwFMF968pPWSSUQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 07 Jul 2025 14:44:54 GMT"
+          "Value": "Mon, 06 Oct 2025 20:57:02 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Xpxyd+wg4WtiEh57IzWWk/KS66sLLbp7dyPdCBZzYqU="
+          "Value": "sha256-w9YaSELGk/mOySsZRCeNC7z8QuBCWwFMF968pPWSSUQ="
+        }
+      ]
+    },
+    {
+      "Route": "cozastore-master/home-02.le3cli178m.html",
+      "AssetFile": "cozastore-master/home-02.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76979"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w9YaSELGk/mOySsZRCeNC7z8QuBCWwFMF968pPWSSUQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Oct 2025 20:57:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "le3cli178m"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w9YaSELGk/mOySsZRCeNC7z8QuBCWwFMF968pPWSSUQ="
+        },
+        {
+          "Name": "label",
+          "Value": "cozastore-master/home-02.html"
         }
       ]
     },

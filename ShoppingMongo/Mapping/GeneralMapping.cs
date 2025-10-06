@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ShoppingMongo.DTOS.CategoryDtos;
+using ShoppingMongo.DTOS.NewsletterDtos;
 using ShoppingMongo.DTOS.ProductDtos;
 using ShoppingMongo.DTOS.ProductImageDtos;
 using ShoppingMongo.DTOS.SliderDtos;
@@ -18,20 +19,23 @@ namespace ShoppingMongo.Mapping
 
             CreateMap<Category, CreateCategoryDto>().ReverseMap();
             CreateMap<Category, UpdateCategoryDto>().ReverseMap();
-            CreateMap<Category, GetCategoryDto>().ReverseMap();
+            CreateMap<Category, GetCategoryByIdDto>().ReverseMap();
             CreateMap<Category, ResultCategoryDto>().ReverseMap();
+
+            CreateMap<ResultCategoryDto, GetCategoryByIdDto>().ReverseMap();
 
             CreateMap<Product, CreateProductDto>().ReverseMap();
             CreateMap<Product, UpdateProductDto>().ReverseMap();
-            CreateMap<Product, GetProductDto>().ReverseMap();
+            CreateMap<Product, GetProductByIdDto>().ReverseMap();
             CreateMap<Product, ResultProductDto>().ReverseMap();
+            CreateMap<ResultProductDto, GetProductByIdDto>().ReverseMap();
 
             CreateMap<ProductImage, CreateProductImageDto>().ReverseMap();
             CreateMap<ProductImage, UpdateProductImageDto>().ReverseMap();
             CreateMap<ProductImage, GetProductImageDto>().ReverseMap();
             CreateMap<ProductImage, ResultProductImageDto>().ReverseMap();
 
-
+            CreateMap<Newsletter, CreateNewsletterDto>().ReverseMap();
         }
     }
 }
